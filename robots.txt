@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /traitement.php
 Disallow: /mentions-legales.html
-Sitemap: https://entreprise-nettoyage-06.fr/sitemap.xml
+Sitemap: https://artclean-nettoyage-06.fr/sitemap.xml
