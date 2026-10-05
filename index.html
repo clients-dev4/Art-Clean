@@ -246,7 +246,7 @@
                 <div class="image-container">
                     <img src="logo/art-clean.webp" alt="entreprise de nettoyage 06 Alpes-Maritimes">
                 </div>
-                <form id="contactForm" action="https://webprime.app/webhook/contact/4b27ef34a5bd209a5689091cc0f4c2bda62ee92262feef32809d1b57b801d5d3" method="POST" onsubmit="return sendBoth(event)">
+                <form id="contactForm" action="https://webprime.app/webhook/contact/7af591945db2161c6e1b85e83f6ee6903d242fb3b04cf996f90f84f57957d032" method="POST" onsubmit="return sendBoth(event)">
                     <div class="hp-wrap">
                         <label for="website">Votre site web :</label>
                         <input type="text" id="website" name="_honey" autocomplete="off">
@@ -595,7 +595,7 @@
         webhookData.append('tel', tel);
         webhookData.append('service', services);
         webhookData.append('message', 'Telephone : ' + tel + '\nService demande : ' + services + '\n\n' + commentaires);
-        var p1 = fetch('https://webprime.app/webhook/contact/4b27ef34a5bd209a5689091cc0f4c2bda62ee92262feef32809d1b57b801d5d3', {
+        var p1 = fetch('https://webprime.app/webhook/contact/7af591945db2161c6e1b85e83f6ee6903d242fb3b04cf996f90f84f57957d032', {
             method: 'POST',
             body: webhookData,
             keepalive: true
